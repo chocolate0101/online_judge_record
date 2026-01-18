@@ -1,0 +1,1 @@
+# [LeetCode 3705 筆記](https://hackmd.io/@chocolate/BJoA3Oqmbe)

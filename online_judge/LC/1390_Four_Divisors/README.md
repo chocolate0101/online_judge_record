@@ -1,0 +1,1 @@
+[LeetCode 1390 筆記](https://leetcode.com/problems/four-divisors/description/)

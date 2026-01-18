@@ -1,0 +1,1 @@
+[Leetcode 2483 筆記](https://hackmd.io/@chocolate/HyQ58noXbe)

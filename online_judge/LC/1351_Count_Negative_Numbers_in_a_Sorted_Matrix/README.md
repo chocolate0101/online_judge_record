@@ -1,0 +1,1 @@
+[LeetCode 1351 筆記](https://hackmd.io/@chocolate/H1y6etRX-e)

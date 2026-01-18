@@ -1,0 +1,1 @@
+# [LeetCode 840 筆記](https://hackmd.io/@chocolate/Hy4C2DWNbe)
