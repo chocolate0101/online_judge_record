@@ -2,20 +2,21 @@
 class Solution {
 public:
     int bestClosingTime(string customers) {
-        vector<int> best_score_dp;
-        int index = 0, best_score = 0, best_hour = 0;
-        best_score_dp.push_back(0);
+        vector<int> best_score = {0};
         for (auto& customer: customers) {
-            index++;
             if (customer == 'Y') {
-                best_score_dp.push_back(best_score_dp[index-1] + 1);
+                best_score.push_back(best_score.back() + 1);
             } else {
-                best_score_dp.push_back(best_score_dp[index-1] - 1);
+                best_score.push_back(best_score.back() - 1);
             }
+        }
 
-            if (best_score_dp[index] > best_score) {
-                best_score = best_score_dp[index];
-                best_hour = index;
+        int max_score = INT_MIN;
+        int best_hour = 0;
+        for (int i = 0; i < best_score.size(); i++) {
+            if (best_score[i] > max_score) {
+                max_score = best_score[i];
+                best_hour = i;
             }
         }
 
