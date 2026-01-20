@@ -2,13 +2,11 @@
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         integer = 0
-        for i in range(len(digits)):
-            integer += digits[i]
-            integer *= 10
-        
-        integer_list = list(map(int, str(integer // 10 + 1)))
+        for digit in digits:
+            integer = integer * 10 + digit
 
-        return integer_list
+        integer += 1
+        return list(map(int, str(integer)))
 
 # solution 2 (best solution)
 class Solution:
