@@ -1,0 +1,1 @@
+[LeetCode 1877 筆記](https://hackmd.io/@chocolate/SJ5zl8fIbg)
