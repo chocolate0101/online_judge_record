@@ -1,0 +1,1 @@
+[LeetCode 1984 筆記](https://hackmd.io/@chocolate/ryITVDm8Wg)
