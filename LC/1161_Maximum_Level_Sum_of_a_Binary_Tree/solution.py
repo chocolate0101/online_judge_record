@@ -34,7 +34,7 @@ class Solution:
             if len(level_sum) < level:
                 level_sum.append(0)
 
-            level_sum[level] += nodes.val
+            level_sum[level-1] += nodes.val
             if nodes.left:
                 dfs(nodes.left, level+1)
             if nodes.right:
@@ -44,4 +44,4 @@ class Solution:
 
         max_sum = max(level_sum)
 
-        return level_sum.index(max_sum)
+        return level_sum.index(max_sum) + 1
