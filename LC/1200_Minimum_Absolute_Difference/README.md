@@ -1,0 +1,1 @@
+[LeetCode 1200 筆記](https://hackmd.io/@chocolate/rk6GVfS8Wx)
