@@ -2,7 +2,7 @@ class Solution:
     def minimumPairRemoval(self, nums: List[int]) -> int:
         total_operation = 0
         while True:
-            if sorted(nums) == nums:
+            if all(nums[i] <= nums[i+1] for i in range(len(nums) - 1)):
                 break
             
             min_sum = inf
