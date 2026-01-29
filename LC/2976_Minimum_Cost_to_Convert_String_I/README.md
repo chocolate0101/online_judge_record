@@ -1,0 +1,1 @@
+[LeetCode 2976 筆記](https://hackmd.io/@chocolate/HyvvtbY8Zg)
