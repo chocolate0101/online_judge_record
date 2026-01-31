@@ -1,0 +1,1 @@
+[LeetCode 744 筆記](https://hackmd.io/@chocolate/SyleoDjIZe)
