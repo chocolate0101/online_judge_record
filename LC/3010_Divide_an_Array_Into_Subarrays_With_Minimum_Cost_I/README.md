@@ -1,0 +1,1 @@
+[LeetCode 3010 筆記](https://hackmd.io/@chocolate/H1OWHxAUbx)
