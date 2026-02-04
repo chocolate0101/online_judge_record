@@ -1,9 +1,23 @@
+// solution 1
 class Solution {
 public:
     char nextGreatestLetter(vector<char>& letters, char target) {
-        int i = 0, j = letters.size(), mid = 0;
+        for (auto& letter: letters) {
+            if (letter > target) {
+                return letter;
+            }
+        }
 
-        if (target >= letters[j-1] || target < letters[0]) {
+        return letters[0];
+    }
+};
+// solution 2
+class Solution {
+public:
+    char nextGreatestLetter(vector<char>& letters, char target) {
+        int i = 0, j = letters.size()-1, mid = 0;
+
+        if (target >= letters[j] || target < letters[0]) {
             return letters[0];
         }
 
